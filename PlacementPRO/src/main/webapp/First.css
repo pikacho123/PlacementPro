@@ -1,0 +1,157 @@
+/* First.css
+body {
+    background-color: #358d9d;
+  }
+  
+  .shadow-box {
+    background-color: rgba(255, 255, 255, 0.934);
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #358d9d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .button:hover {
+    background-color: #3385ff;
+  } */
+  
+/* body {
+    background-color: #358d9d;
+    font-family: 'Poppins', sans-serif; Add font-family
+}
+
+.shadow-box {
+    background-color: rgba(255, 255, 255, 0.934);
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    max-width: 600px;
+} */
+
+
+/* body {
+    Background Gradient
+    background-color: white;Add your gradient colors
+    font-family: 'Poppins', sans-serif; Add font-family
+} */
+
+body {
+    /* Background Image */
+    background-image: url('17973908.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    font-family: 'Poppins', sans-serif; /* Add font-family */
+}
+
+.shadow-box {
+    background-color: white; /* Change background color to white */
+    border: 2px solid #358d9d; /* Add border with color */
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    max-width: 600px;
+}
+
+
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #358d9d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button a {
+    color:black;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #3385ff;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .shadow-box {
+        padding: 30px;
+        margin-top: 50px;
+        max-width: 90%;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .button {
+        font-size: 1em;
+        padding: 8px 16px;
+        margin: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .shadow-box {
+        padding: 20px;
+        margin-top: 30px;
+        max-width: 90%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+    .button {
+        font-size: 0.9em;
+        padding: 6px 12px;
+        margin: 6px;
+    }
+}
+
+
+  

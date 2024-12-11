@@ -1,0 +1,181 @@
+/* General styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+  line-height: 1.25;
+  background-image: url('17973908.jpg'); /* Replace 'your-image-path.jpg' with the path to your image */
+  background-size: cover; /* Ensures the image covers the entire background */
+}
+
+.content {
+  padding-top: 100px; /* Adjust this value as needed */
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 100px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 60px; /* Adjust as needed for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content {
+    padding-top: 100px; /* Adjust as needed for smaller screens */
+  }
+
+  h1 {
+    font-size: 40px; /* Adjust as needed for smaller screens */
+  }
+}
+
+/* Table styling */
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+  border: 1px solid #ddd; /* Add border to all table cells */
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: center;
+    border: none; /* Remove border from table cells */
+    border-top: 1px solid #ddd; /* Add border to top of table cells */
+  }
+  
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+/* Button styling */
+.button-container {
+  text-align: center;
+  margin-bottom: 20px; /* Optional: Add margin for spacing */
+}
+
+.add-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 600px) {
+  .button-container {
+    text-align: center; /* Align button container to center */
+  }
+
+  .add-button {
+    display: inline-block; /* Ensure button is centered */
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+/* Button styling */
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker Green */
+}
+
+/* Input styling */
+input[type=number], button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+input[type=number] {
+  width: 120px;
+}
+
